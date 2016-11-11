@@ -23,6 +23,15 @@
     <body>
     <main id="main">
     </main>
+    <br>
+    <br>
+    <form id="user">
+      Username:
+      <input id = "username" type="text" name="username" value ="">
+      <button type="button" name="getrepos" onclick= "getRepositories()">Get Repositories</button>
+    </form>
+
+
     <div class="flexbox-container">
       <div>
         <h3>Repositories</h3>
@@ -31,6 +40,10 @@
       <div>
         <h3>Details</h3>
         <div id="details"></div>
+        <h4>Commits</h4>
+          <div id="commits"></div>
+        <h4>Branches</h4>
+          <div id="branches"></div>
       </div>
     </div>
     <script src="index.js"></script>
